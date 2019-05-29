@@ -192,7 +192,7 @@ function flip_auto(time) {
 
 function reset(move, sec, min) {
   board.style.display = 'block';
-  board.querySelector('.scr_moves').innerHTML = 0;
+  board.querySelector('.scr_moves').innerHTML = move;
   board.querySelector('.scr_sec').innerHTML = sec;
   board.querySelector('.scr_min').innerHTML = min;
   return true;
